@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Roboto:wght@500&display=swap');
+
+
+
+body{
+    background-color:#0097e6;
+}
+.dip{
+margin-top: 35px;
+color: hsl(64, 96%, 59%);
+font-family: 'Poppins', sans-serif;
+}
+ul{
+margin: 0;
+padding: 0;
+
+list-style:none;
+height: 46px;
+line-height: 46px;
+background-color: #eee;
+
+}
+li{
+float: left;
+border-right: 1px solid #ccc;
+border-radius:  5px;
+}
+a{
+display: block;
+padding: 0 62.2px;
+color: red;
+text-decoration: none;
+height: 46px;
+line-height: 56px;
+}
+.dip1 > .active>a,
+.dip1 > .active > a:hover,
+.dip1 > .active > a:focus {
+background-color:#ddd;
+background-image: none;
+-webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.dip1 > li:first-child > a {
+border-radius: 5px 5px 0 0;
+}
+.dip1 > li:last-child > a {
+border-bottom: 0;
+border-radius: 0 0 5px 5px;
+}
+/* Jumpbotron */
+.jumbotron {
+text-align: center;
+background-color: #353b48;
+margin: 50px 50px;
+}
+.dip3{
+    color: white;
+    font-weight: ;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.dip4{
+    font-size: 2.5rem;
+    color: White;
+    font-family: 'Poppins', sans-serif;
+}
+.dip5{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.jumbotron .btn {
+padding: 20px 24px;
+font-size: 21px;
+line-height: 5px;
+}
+.footer {
+padding-top: 40px;
+padding-bottom: 40px;
+margin-top: 40px;
+border-top: 1px solid #eee;
+}
+.dip1 > li > a {
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right:
+margin-bottom: 0;
+line-height: 14px;
+font-weight: bold;
+color: #777;
+
+background-color: #e5e5e5;
+}
+
+
